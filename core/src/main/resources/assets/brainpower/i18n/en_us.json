@@ -1,8 +1,21 @@
 {
+  "labymod": {
+    "hudWidgetCategory": {
+      "brain_power":{
+        "name": "Brain Power",
+        "description": "Widgets for the Brain Power Addon"
+      }
+    }
+  },
   "brainpower": {
     "settings": {
       "enabled": {
         "name": "Enabled"
+      }
+    },
+    "hudWidget": {
+      "near_player_widget": {
+        "name": "Near Player Widget"
       }
     }
   }
