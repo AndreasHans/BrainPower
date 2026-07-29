@@ -9,7 +9,7 @@ group = "org.example"
 version = providers.environmentVariable("VERSION").getOrElse("1.0.0")
 
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "net.labymod.addons.brainpower" //change this to your main package name (used by all modules)
 
     minecraft {
         registerVersion(versions.toTypedArray()) {
@@ -23,10 +23,10 @@ labyMod {
     }
 
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
-        description = "Example Description"
+        namespace = "brainpower"
+        displayName = "BrainPower"
+        author = "AndreasHans"
+        description = "What if we use 100% of our brain?"
         minecraftVersion = "*"
         version = rootProject.version.toString()
     }

@@ -1,15 +1,15 @@
-package org.example.core.listener;
+package net.labymod.addons.brainpower.listener;
 
+import net.labymod.addons.brainpower.BrainPowerAddon;
 import net.labymod.api.event.Phase;
 import net.labymod.api.event.Subscribe;
 import net.labymod.api.event.client.lifecycle.GameTickEvent;
-import org.example.core.ExampleAddon;
 
-public class ExampleGameTickListener {
+public class BrainPowerGameTickListener {
 
-  private final ExampleAddon addon;
+  private final BrainPowerAddon addon;
 
-  public ExampleGameTickListener(ExampleAddon addon) {
+  public BrainPowerGameTickListener(BrainPowerAddon addon) {
     this.addon = addon;
   }
 
