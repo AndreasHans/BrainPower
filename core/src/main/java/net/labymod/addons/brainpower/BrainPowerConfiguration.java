@@ -11,8 +11,15 @@ public class BrainPowerConfiguration extends AddonConfig {
   @SwitchSetting
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
 
+  @SwitchSetting
+  private final ConfigProperty<Boolean> blockEventEnabled = new ConfigProperty<>(false);
+
   @Override
   public ConfigProperty<Boolean> enabled() {
     return this.enabled;
+  }
+
+  public ConfigProperty<Boolean> blockEventEnabled() {
+    return this.blockEventEnabled;
   }
 }

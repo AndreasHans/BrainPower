@@ -11,6 +11,9 @@
     "settings": {
       "enabled": {
         "name": "Enabled"
+      },
+      "blockEventEnabled": {
+        "name": "Block Event Enabled"
       }
     },
     "hudWidget": {
